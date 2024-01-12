@@ -46,15 +46,9 @@ export default function MainCard({
           background:
             'linear-gradient(to top, rgba(0,0,0,0.4), rgba(0,0,0,0) 200px), linear-gradient(to top, rgba(0,0,0,0.8), rgba(0,0,0,0) 300px)',
         }}
-        onMouseOver={e => console.log(e)}
       />
       <CardContent sx={{ justifyContent: 'flex-end' }}>
-        <Link
-          overlay
-          underline="none"
-          href="#interactive-card"
-          sx={{ color: 'text.tertiary' }}
-        >
+        <Link overlay underline="none" href="#" sx={{ color: 'text.tertiary' }}>
           <Typography level="title-lg" textColor="#fff">
             {title}
           </Typography>
